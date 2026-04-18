@@ -148,16 +148,8 @@ AI 的最佳使用方式不是索要最终答案，而是：
 - *Computer Systems: A Programmer's Perspective*
 - *Operating Systems: Three Easy Pieces*
 
-## 开源说明
+## 从这里开始
 
-建议你在后续补充：
+建议从 [Day 01 - 环境与目标](/home/yz/code/musl-ai-learning/docs/daily/day-01-environment-and-roadmap.md) 开始，按每天约 1 小时的节奏推进。每完成一天，优先保证代码可运行、可验证、可解释，再进入下一天。
 
-- `LICENSE`
-- `.gitignore`
-- 每个阶段的阶段性说明
-- 一份最终的学习总结
-
-如果你愿意，这个仓库最终可以同时具备两层价值：
-
-- 对你自己来说，它是一条可复现的底层学习路径
-- 对别人来说，它是一份“从 0 到最小 libc”的实践型教程
+这个仓库的重点不是“尽快写完”，而是通过亲手实现和反复对照，真正理解一个最小 libc 核心是如何建立起来的。
