@@ -57,34 +57,34 @@
 4. 阶段四：动态内存管理的基石
 5. 阶段五：致敬 musl mallocng
 
-对应的每日计划在 [docs/daily](/home/yz/code/musl-ai-learning/docs/daily)。
+对应的每日计划在 [docs/daily](docs/daily)。
 
-阶段学习结束后，可以把当天或当阶段的总结沉淀到 [docs/answers](/home/yz/code/musl-ai-learning/docs/answers)。
+阶段学习结束后，可以把当天或当阶段的总结沉淀到 [docs/answers](docs/answers)。
 
 ## 每日计划索引
 
-- [Day 01 - 环境与目标](/home/yz/code/musl-ai-learning/docs/daily/day-01-environment-and-roadmap.md)
-- [Day 02 - 认识 ELF 与入口点](/home/yz/code/musl-ai-learning/docs/daily/day-02-elf-and-entry.md)
-- [Day 03 - 手写 `_start`](/home/yz/code/musl-ai-learning/docs/daily/day-03-write-start.md)
-- [Day 04 - 第一个 syscall：`write` 与 `exit`](/home/yz/code/musl-ai-learning/docs/daily/day-04-first-syscalls.md)
-- [Day 05 - 阶段一收尾与 musl 对照](/home/yz/code/musl-ai-learning/docs/daily/day-05-stage1-review.md)
-- [Day 06 - `strlen` 朴素实现](/home/yz/code/musl-ai-learning/docs/daily/day-06-strlen-basics.md)
-- [Day 07 - `memset` 与 `memcpy` 朴素实现](/home/yz/code/musl-ai-learning/docs/daily/day-07-memset-memcpy-basics.md)
-- [Day 08 - 对齐与按字长优化](/home/yz/code/musl-ai-learning/docs/daily/day-08-alignment-and-word-at-a-time.md)
-- [Day 09 - 阶段二测试与源码对照](/home/yz/code/musl-ai-learning/docs/daily/day-09-stage2-review.md)
-- [Day 10 - 可变参数与最小输出框架](/home/yz/code/musl-ai-learning/docs/daily/day-10-stdarg-and-output-buffer.md)
-- [Day 11 - 十进制与十六进制整数转字符串](/home/yz/code/musl-ai-learning/docs/daily/day-11-integer-formatting.md)
-- [Day 12 - 实现最小 `printf`](/home/yz/code/musl-ai-learning/docs/daily/day-12-mini-printf.md)
-- [Day 13 - 阶段三测试与源码对照](/home/yz/code/musl-ai-learning/docs/daily/day-13-stage3-review.md)
-- [Day 14 - 堆分配器设计与 `mmap`](/home/yz/code/musl-ai-learning/docs/daily/day-14-allocator-design-and-mmap.md)
-- [Day 15 - 实现最小 `malloc`](/home/yz/code/musl-ai-learning/docs/daily/day-15-minimal-malloc.md)
-- [Day 16 - 实现 `free`、块分裂与复用](/home/yz/code/musl-ai-learning/docs/daily/day-16-free-split-reuse.md)
-- [Day 17 - 合并空闲块与调试器](/home/yz/code/musl-ai-learning/docs/daily/day-17-coalesce-and-heap-checker.md)
-- [Day 18 - 阶段四测试与源码对照](/home/yz/code/musl-ai-learning/docs/daily/day-18-stage4-review.md)
-- [Day 19 - 理解 mallocng 设计动机](/home/yz/code/musl-ai-learning/docs/daily/day-19-mallocng-concepts.md)
-- [Day 20 - 设计 size class 与 group](/home/yz/code/musl-ai-learning/docs/daily/day-20-size-class-and-group.md)
-- [Day 21 - 实现教学版分槽分配器](/home/yz/code/musl-ai-learning/docs/daily/day-21-slot-allocator.md)
-- [Day 22 - 阶段五对照与总结](/home/yz/code/musl-ai-learning/docs/daily/day-22-stage5-review.md)
+- [Day 01 - 环境与目标](docs/daily/day-01-environment-and-roadmap.md)
+- [Day 02 - 认识 ELF 与入口点](docs/daily/day-02-elf-and-entry.md)
+- [Day 03 - 手写 `_start`](docs/daily/day-03-write-start.md)
+- [Day 04 - 第一个 syscall：`write` 与 `exit`](docs/daily/day-04-first-syscalls.md)
+- [Day 05 - 阶段一收尾与 musl 对照](docs/daily/day-05-stage1-review.md)
+- [Day 06 - `strlen` 朴素实现](docs/daily/day-06-strlen-basics.md)
+- [Day 07 - `memset` 与 `memcpy` 朴素实现](docs/daily/day-07-memset-memcpy-basics.md)
+- [Day 08 - 对齐与按字长优化](docs/daily/day-08-alignment-and-word-at-a-time.md)
+- [Day 09 - 阶段二测试与源码对照](docs/daily/day-09-stage2-review.md)
+- [Day 10 - 可变参数与最小输出框架](docs/daily/day-10-stdarg-and-output-buffer.md)
+- [Day 11 - 十进制与十六进制整数转字符串](docs/daily/day-11-integer-formatting.md)
+- [Day 12 - 实现最小 `printf`](docs/daily/day-12-mini-printf.md)
+- [Day 13 - 阶段三测试与源码对照](docs/daily/day-13-stage3-review.md)
+- [Day 14 - 堆分配器设计与 `mmap`](docs/daily/day-14-allocator-design-and-mmap.md)
+- [Day 15 - 实现最小 `malloc`](docs/daily/day-15-minimal-malloc.md)
+- [Day 16 - 实现 `free`、块分裂与复用](docs/daily/day-16-free-split-reuse.md)
+- [Day 17 - 合并空闲块与调试器](docs/daily/day-17-coalesce-and-heap-checker.md)
+- [Day 18 - 阶段四测试与源码对照](docs/daily/day-18-stage4-review.md)
+- [Day 19 - 理解 mallocng 设计动机](docs/daily/day-19-mallocng-concepts.md)
+- [Day 20 - 设计 size class 与 group](docs/daily/day-20-size-class-and-group.md)
+- [Day 21 - 实现教学版分槽分配器](docs/daily/day-21-slot-allocator.md)
+- [Day 22 - 阶段五对照与总结](docs/daily/day-22-stage5-review.md)
 
 ## 推荐目录结构
 
@@ -168,6 +168,6 @@ AI 的最佳使用方式不是索要最终答案，而是：
 
 ## 从这里开始
 
-建议从 [Day 01 - 环境与目标](/home/yz/code/musl-ai-learning/docs/daily/day-01-environment-and-roadmap.md) 开始，按每天约 1 小时的节奏推进。每完成一天，优先保证代码可运行、可验证、可解释，再进入下一天。
+建议从 [Day 01 - 环境与目标](docs/daily/day-01-environment-and-roadmap.md) 开始，按每天约 1 小时的节奏推进。每完成一天，优先保证代码可运行、可验证、可解释，再进入下一天。
 
 这个仓库的重点不是“尽快写完”，而是通过亲手实现和反复对照，真正理解一个最小 libc 核心是如何建立起来的。
