@@ -4,5 +4,5 @@
 _start:
   sub $8, %rsp
   call c_main
-  hlt
-  jmp .-1
+  mov %rax, %rdi
+  call sys_exit
