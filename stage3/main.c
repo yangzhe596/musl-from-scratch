@@ -60,6 +60,11 @@ static void test_mini_printf(void)
 	mini_printf("num=%d hex=%x\n", -1, 0xDEAD);
 	mini_printf("null=%s\n", (const char *)0);
 	mini_printf("100%% ok\n");
+	mini_printf("empty string: '%s'\n", "");
+	mini_printf("unknown format: %q\n");
+	mini_printf("multi: %d %s %x\n", 42, "test", 0xFF);
+	mini_printf("");
+	mini_printf("\n");
 }
 
 int c_main(void)
