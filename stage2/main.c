@@ -70,6 +70,21 @@ static void test_memset(void)
 	memset(buf, 0x42, 6);
 	sys_write(1, "fill 0x42: ", 11);
 	print_memory(buf, 6);
+
+	// Test 5: aligned address (buf is likely aligned)
+	memset(buf, 0x55, 8);
+	sys_write(1, "aligned 8: ", 11);
+	print_memory(buf, 8);
+
+	// Test 6: unaligned address
+	memset(buf + 1, 0x77, 7);
+	sys_write(1, "unaligned 7: ", 13);
+	print_memory(buf, 8);
+
+	// Test 7: small n (less than size_t)
+	memset(buf, 0x99, 3);
+	sys_write(1, "small n=3: ", 11);
+	print_memory(buf, 4);
 }
 
 static void test_memcpy(void)
