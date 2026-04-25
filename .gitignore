@@ -1,5 +1,19 @@
 # 编译产物
 *.o
 *.gch
+
+# Stage 1
 stage1/hello
+stage1/demo_argc/demo
+
+# Stage 2
 stage2/test_strlen
+
+# Stage 3
+stage3/hello
+
+# Stage 4
+stage4/hello
+
+# Stage 5
+stage5/hello
