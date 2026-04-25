@@ -1,0 +1,5 @@
+# 编译产物
+*.o
+*.gch
+stage1/hello
+stage2/test_strlen
